@@ -1,4 +1,4 @@
-package selenium
+package selenium // import "github.com/synerex/rpa_selenium"
 
 import (
 	"errors"

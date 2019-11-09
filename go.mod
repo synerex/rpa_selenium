@@ -1,4 +1,4 @@
-module selenium
+module github.com/synerex/rpa_selenium
 
 go 1.12
 
