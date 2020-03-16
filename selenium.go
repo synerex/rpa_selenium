@@ -3,6 +3,7 @@ package selenium // import "github.com/synerex/rpa_selenium"
 import (
 	"errors"
 	"fmt"
+	"log"
 	"math/rand"
 	"strings"
 	"time"
@@ -341,6 +342,9 @@ func Execute(year string, month string, day string, week string, start string, e
 }
 
 func Schedules(year string, month string, day string, start string, end string, people string) (string, error) {
+
+	log.Println("Schedule function is called by github.com/synerex/rpa_selenium")
+
 	// driver := agouti.ChromeDriver(agouti.Browser("chrome"))
 	// Headless Chrome Driver
 	driver := agouti.ChromeDriver(
